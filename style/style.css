@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 	box-shadow: 0 3px 10px rgba(0, 0,
 	 0, 0.2);
 
-	/*padding: 10px 0;*/
+	padding: 10px 0;
 }
 
 .header.active {
@@ -862,6 +862,9 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 
 	margin-top: 100px;
+
+	max-width: 1917px;
+	margin: 0 auto;
 }
 
 .works__coll {
@@ -1872,6 +1875,11 @@ h1, h2, h3, h4, h5, h6 {
 
 	.works__coll {
 		width: 100%;
+	}
+
+	.works__item {
+		max-width: 480px;
+		margin: 0 auto;
 	}
 
 	/* Clients */
