@@ -160,6 +160,8 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 10;
 
 	padding-top: 30px;
+	transition: opacity .2s linear;
+	opacity: 1;
 }
 
 .header.fixed {
@@ -176,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 	 0, 0.2);
 
 	padding: 10px 0;
+	opacity: 1;
 }
 
 .header.active {
